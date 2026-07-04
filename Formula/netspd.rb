@@ -12,16 +12,16 @@ class Netspd < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/TarunVishwakarma1/netspd/releases/download/v0.1.1/netspd-v0.1.1-aarch64-apple-darwin.tar.gz"
-      sha256 "9272656d491b78c5c88df5e467065d9b11e1a3ac1e7f15260e555e432493e48e"
+      sha256 "5e7d1851d0b1961c844936d3ce527fd3566831e22f0d3ea814ef86f8af71560b"
     else
       url "https://github.com/TarunVishwakarma1/netspd/releases/download/v0.1.1/netspd-v0.1.1-x86_64-apple-darwin.tar.gz"
-      sha256 "0a3ef2974c7f077bcdc069debe816e6daf969bf0e3ba522a6ea0fcd90c8cf622"
+      sha256 "22e0a84e08cc9006e46d2bde6f085c096026626b54f5fdeb3ab2dd3c03ed70c0"
     end
   end
 
   on_linux do
     url "https://github.com/TarunVishwakarma1/netspd/releases/download/v0.1.1/netspd-v0.1.1-x86_64-unknown-linux-musl.tar.gz"
-    sha256 "07b7e75c1d16d97f62a5c74860062c50f0c935b5b092ed72ed36e1ffc0b2a8fe"
+    sha256 "6f795c089086d4e492afeb539e6c4b9cea69ad321a86e2b6619776a43c98e84c"
   end
 
   def install
