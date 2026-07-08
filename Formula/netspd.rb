@@ -6,22 +6,22 @@
 class Netspd < Formula
   desc "Beautiful network speed test for the terminal, with a hypercar tachometer"
   homepage "https://github.com/TarunVishwakarma1/netspd"
-  version "0.1.6"
+  version "0.1.7"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/TarunVishwakarma1/netspd/releases/download/v0.1.6/netspd-v0.1.6-aarch64-apple-darwin.tar.gz"
-      sha256 "d70dfd2552e2771bb9be3ae6dd2e804be4c782120b1e36776829416d718d3abf"
+      url "https://github.com/TarunVishwakarma1/netspd/releases/download/v0.1.7/netspd-v0.1.7-aarch64-apple-darwin.tar.gz"
+      sha256 "1b556b6fb034b70ff40e679418ba69fbf88444b88460acc186aa326b9b135dc2"
     else
-      url "https://github.com/TarunVishwakarma1/netspd/releases/download/v0.1.6/netspd-v0.1.6-x86_64-apple-darwin.tar.gz"
-      sha256 "8bbe9414c19d3b12a8269cfa363ae37b70654a93d5362bcd7ee8c4350ea55a1b"
+      url "https://github.com/TarunVishwakarma1/netspd/releases/download/v0.1.7/netspd-v0.1.7-x86_64-apple-darwin.tar.gz"
+      sha256 "d63cdbd4330f9ea36be95c228d5b28d8a1ca2f882b5c879e7a174420c774791e"
     end
   end
 
   on_linux do
-    url "https://github.com/TarunVishwakarma1/netspd/releases/download/v0.1.6/netspd-v0.1.6-x86_64-unknown-linux-musl.tar.gz"
-    sha256 "0c9b270f897a2196183b179a55425878fe10059a5dc0ab6f0b129b42e12de691"
+    url "https://github.com/TarunVishwakarma1/netspd/releases/download/v0.1.7/netspd-v0.1.7-x86_64-unknown-linux-musl.tar.gz"
+    sha256 "7f042ae8ad800d8c97ffb3d469cfc847fe35cde27001f90dcb7aea819ff42677"
   end
 
   def install
